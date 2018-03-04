@@ -9,7 +9,7 @@ let colors = document.querySelectorAll('.color-palette div')
 let colorIndicator = document.getElementById('colorIndicator')
 let colorWheel = document.querySelector('input')
 let paintColor = 'white'
-
+colorIndicator.style.backgroundColor = paintColor
 
 // Adding Event Listeners
 for (let i = 0; i<cells.length; i++) {
@@ -37,6 +37,7 @@ function createGrid() {
     cellGrid.appendChild(newRow)
     for (let j=0; j<gridWidth; j++) {
       let newCell = addCell()
+      newCell.style.backgroundColor = 'white'
       newRow.appendChild(newCell)
     }
   }
