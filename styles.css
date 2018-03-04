@@ -1,32 +1,20 @@
+.cellGrid {
+  margin: 20px;
+}
+
 .cell {
   border-style: solid;
-  border-width: 2px;
-  height: 50px;
-  width: 50px;
-  padding: 2px;
-  margin: 2px;
+  border-color: lightgray;
+  border-width: 1px;
+  height: 10px;
+  width: 10px;
+  /* padding: 1px; */
+  /* margin: .5px; */
 }
 
 /* COLORS */
-
-.white {
-  background-color: white;
-}
-
-.red {
-  background-color: red;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.yellow {
-  background-color: yellow;
-}
-
 .color-palette {
-  margin-top: 30px;
+  margin: 10px;
 }
 
 .color-palette div {
@@ -34,4 +22,9 @@
   width: 50px;
   border-style: solid;
   border-radius: 50%;
+}
+#colorIndicator {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
 }
