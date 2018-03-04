@@ -1,4 +1,5 @@
 # Pixel Art Maker
+http://bryankai-pixel-painter.surge.sh/
 
 In this exercise, you'll create your own pixel art maker which will allow a user to choose colors from a palette and then paint pixel art. The interface is completely up to you, but it could look something like this.
 
@@ -14,13 +15,9 @@ More specifically, your pixel art maker should allow a user to do the following.
 Here's a development workflow that we recommend you use.
 
 Done
-1. Fork and clone this repository.
-1. Create a small, 2x2 grid canvas made up of white, square `div` tags with a border.
-
-Doing
-1. Add an event listener to each `div` so when clicked the background turns red.
-
-To Do
+[x] Fork and clone this repository.
+[x] Create a small, 2x2 grid canvas made up of white, square `div` tags with a border.
+[x] Add an event listener to each `div` so when clicked the background turns red.
 [x] Create a small palette of two colors (e.g. red and blue) below the canvas using more `div` tags.
 -Need to fix error that I can't change a cell color if already painted.
   -Need to remove classes then add new one

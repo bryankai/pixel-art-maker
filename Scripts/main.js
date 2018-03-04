@@ -13,7 +13,11 @@ let paintColor = 'white'
 
 // Adding Event Listeners
 for (let i = 0; i<cells.length; i++) {
-  cells[i].addEventListener('click', render)
+  cells[i].addEventListener('mousedown', render)
+  // Need to use mousedown, mouseneter, and mouseup
+  // If i click, change that cells
+  // If key is pressed, then do mouseenter
+  // also do mouseup?
 }
 
 for (let i = 0; i<colors.length; i++) {

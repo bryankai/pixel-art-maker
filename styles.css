@@ -2,10 +2,6 @@ html body {
   background-color: honeydew;
 }
 
-.row {
-  align-items: center;
-}
-
 .container div {
   text-align: center;
   align-items: center;
@@ -21,25 +17,25 @@ html body {
 }
 
 /* COLORS */
-
 .color-palette {
   margin: 10px;
 }
 
-.color-palette div {
+.color-palette > * {
   height: 30px;
   width: 30px;
   border-style: solid;
-  border-radius: 50%;
+  border-width: 1px;
+  border-radius: 25%;
+  margin: 2px;
 }
+
 .color-palette input {
-  height: 30px;
-  width: 30px;
-  border-radius:50%;
+  border-width: 1px;
+  border-radius: 25%;
 }
 
 #colorIndicator {
-  height: 30px;
-  width: 30px;
-  border-style: solid;
+  border-width: 3px;
+  border-radius: 50%;
 }
