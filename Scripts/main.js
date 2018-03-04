@@ -20,7 +20,7 @@ for (let i = 0; i<colors.length; i++) {
   colors[i].addEventListener('click', chooseColor)
 }
 
-colorWheel.addEventListener('blur', function (){
+colorWheel.addEventListener('change', function (){
   paintColor=event.target.value
   colorIndicator.style.backgroundColor = paintColor
 })
