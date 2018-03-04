@@ -31,7 +31,7 @@ To Do
 [x] Expand the dimensions of the pixel canvas.
 [x] Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
 [x] Expand the palette with a brush color indicator.
-[] Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
+[x] Improve the look and feel of the canvas and color palette. Be careful not to break your program's behavior!
 
 **TIP:** Check out [this handy tool](http://www.colors.commutercreative.com/grid/) to see a list of all the named colors in CSS.
 

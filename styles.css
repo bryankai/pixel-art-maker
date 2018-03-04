@@ -1,5 +1,15 @@
-.cellGrid {
-  margin: 20px;
+html body {
+  background-color: honeydew;
+}
+
+.row {
+  align-items: center;
+}
+
+.container div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .cell {
@@ -8,23 +18,28 @@
   border-width: 1px;
   height: 10px;
   width: 10px;
-  /* padding: 1px; */
-  /* margin: .5px; */
 }
 
 /* COLORS */
+
 .color-palette {
   margin: 10px;
 }
 
 .color-palette div {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-style: solid;
   border-radius: 50%;
 }
+.color-palette input {
+  height: 30px;
+  width: 30px;
+  border-radius:50%;
+}
+
 #colorIndicator {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-style: solid;
 }

@@ -32,8 +32,8 @@ function createGrid() {
     let newRow = addRow()
     cellGrid.appendChild(newRow)
     for (let j=0; j<gridWidth; j++) {
-      let newDiv = addDiv()
-      newRow.appendChild(newDiv)
+      let newCell = addCell()
+      newRow.appendChild(newCell)
     }
   }
 }
@@ -44,11 +44,12 @@ function addRow() {
   newRow.classList.add('row')
   return newRow
 }
+
 //Create a div
-function addDiv() {
-  const newDiv = document.createElement("div");
-  newDiv.classList.add('cell')
-  return newDiv
+function addCell() {
+  const newCell = document.createElement("div");
+  newCell.classList.add('cell')
+  return newCell
 }
 
 function render() {
